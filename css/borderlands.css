@@ -1,0 +1,65 @@
+body, h1 {font-family: "Raleway", sans-serif}
+
+body, html {
+    height: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background: white url("/img/forest.jpg") fixed;
+    background-size: cover;
+}
+
+#app {
+    height: 100%;
+    min-height: 100%;
+}
+
+.bgimg {
+    background-image: url('/forest.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.teaser {
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+}
+
+.teaser h1 {
+    line-height: .6em;
+    margin-bottom: 24px;
+}
+
+.claim i {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.countdown {
+    margin:10px auto;
+    padding-bottom:20px
+}
+
+.countdown-col{
+    display:inline-block
+}
+
+.countdown-col-element {
+    display:inline-block;
+    margin:0 20px;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+}
+
+.countdown-col-element strong{
+    font-size:50px
+}

@@ -1,0 +1,38 @@
+{
+  "name": "borderlands.limited",
+  "version": "0.1.0",
+  "description": "Borderlands Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "serve": "http-server dist/ -p 8080 -s -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/borderlands/borderlands.limited.git"
+  },
+  "author": "Brian Wiborg <baccenfutter@c-base.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borderlands/borderlands.limited/issues"
+  },
+  "homepage": "https://github.com/borderlands/borderlands.limited#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "webpack": "^3.10.0",
+    "webpack-cli": "^3.0.3"
+  }
+}
