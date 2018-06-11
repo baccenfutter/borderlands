@@ -46,7 +46,7 @@ module.exports = {
             },
             {
                 from: 'robots.txt',
-                to: `${distPath}/src/robots.txt`,
+                to: `${distPath}/robots.txt`,
             },
         ]),
     ],
