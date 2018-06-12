@@ -35,6 +35,13 @@ export default class Borderlands extends React.Component {
                         <hr className="w3-border-white" style={{ margin: 0 }} />
 
                         <Countdown date={nextEvent} />
+
+                        <a href="https://paypal.me/pools/c/85cRTGYsJA" target="_blank"
+                          className="w3-btn w3-round-xlarge w3-white w3-hover-teal w3-border-teal">
+                            <strong>
+                                <i className="fa fa-cc-paypal w3-large"></i> S P E N D E N
+                            </strong>
+                        </a>
                     </div>
                 </div>
             </div>
