@@ -41,8 +41,8 @@ module.exports = {
                 to: `${distPath}/css/borderlands.css`,
             },
             {
-                from: 'img/forest.jpg',
-                to: `${distPath}/img/forest.jpg`,
+                from: 'img',
+                to: `${distPath}/img`,
             },
             {
                 from: 'robots.txt',
